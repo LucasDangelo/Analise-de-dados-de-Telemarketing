@@ -25,6 +25,10 @@ Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do 
 ```
 bloco de código para os comandos necessários
 ```
+## Link de Aplicação
+
+https://telemarketing-j900.onrender.com/
+
 
 ## Ajuda
 
@@ -37,8 +41,8 @@ comando para rodar se o programa tiver uma informação de ajuda
 
 Nomes dos desenvolvedores do projeto e informação para entrar em contato.
 
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
+ex. Lucas Dangelo
+ex. [@LucasDangelo](https://github.com/LucasDangelo)
 
 ## Histórico de versões.
 
