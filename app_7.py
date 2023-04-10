@@ -22,7 +22,7 @@ def load_data(file_data):
         return pd.read_excel(file_data)
 
 # Função para filtrar baseado na multiseleção de categorias
-@st.cache_data(allow_output_mutation=True)
+@st.cache(allow_output_mutation=True)
 def multiselect_filter(relatorio, col, selecionados):
     if 'all' in selecionados:
         return relatorio
@@ -30,12 +30,12 @@ def multiselect_filter(relatorio, col, selecionados):
         return relatorio[relatorio[col].isin(selecionados)].reset_index(drop=True)
 
 # Função para converter o df para csv
-@st.cache_data
+@st.cache
 def convert_df(df):
     return df.to_csv(index=False).encode('utf-8')
 
 # Função para converter o df para excel
-@st.cache_data
+@st.cache
 def to_excel(df):
     output = BytesIO()
     writer = pd.ExcelWriter(output, engine='xlsxwriter')
